@@ -21,6 +21,8 @@
 		006961F9187C05E4008A4336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006961DB187C05E3008A4336 /* UIKit.framework */; };
 		00696201187C05E4008A4336 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 006961FF187C05E4008A4336 /* InfoPlist.strings */; };
 		00696203187C05E4008A4336 /* Ex_4_3_5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00696202187C05E4008A4336 /* Ex_4_3_5Tests.m */; };
+		00FCF557187C0B87005A2F62 /* car4.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FCF556187C0B87005A2F62 /* car4.png */; };
+		00FCF5E5187C20E6005A2F62 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00FCF5E4187C20E6005A2F62 /* image1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		006961FE187C05E4008A4336 /* Ex.4.3.5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex.4.3.5Tests-Info.plist"; sourceTree = "<group>"; };
 		00696200187C05E4008A4336 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00696202187C05E4008A4336 /* Ex_4_3_5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex_4_3_5Tests.m; sourceTree = "<group>"; };
+		00FCF556187C0B87005A2F62 /* car4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car4.png; sourceTree = "<group>"; };
+		00FCF5E4187C20E6005A2F62 /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		006961DD187C05E3008A4336 /* Ex.4.3.5 */ = {
 			isa = PBXGroup;
 			children = (
+				00FCF5E4187C20E6005A2F62 /* image1.jpeg */,
+				00FCF556187C0B87005A2F62 /* car4.png */,
 				006961E6187C05E3008A4336 /* AppDelegate.h */,
 				006961E7187C05E3008A4336 /* AppDelegate.m */,
 				006961E9187C05E3008A4336 /* Main.storyboard */,
@@ -229,7 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				006961F0187C05E4008A4336 /* Images.xcassets in Resources */,
+				00FCF557187C0B87005A2F62 /* car4.png in Resources */,
 				006961E2187C05E3008A4336 /* InfoPlist.strings in Resources */,
+				00FCF5E5187C20E6005A2F62 /* image1.jpeg in Resources */,
 				006961EB187C05E3008A4336 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +468,7 @@
 				00696208187C05E4008A4336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00696209187C05E4008A4336 /* Build configuration list for PBXNativeTarget "Ex.4.3.5Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				0069620B187C05E4008A4336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
